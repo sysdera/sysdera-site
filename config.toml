@@ -1,0 +1,211 @@
+######################## default configuration ####################
+baseURL = "/"
+title = "Sysdera School of DevOps"
+theme = "enov-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "sysdera" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # disable language from here
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+######################### Plugins #############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify/css/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+  
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Why DevOps"
+URL = "devops"
+weight = 2
+
+[[menu.main]]
+name = "Employers"
+URL = "employers"
+weight = 4
+hasChildren = true
+  [[menu.main]]
+  parent = "Employers"
+  name = "Portfolio"
+  URL = "project"
+
+  [[menu.main]]
+  parent = "Employers"
+  name = "Pricing"
+  URL = "pricing"
+
+  [[menu.main]]
+  parent = "Employers"
+  name = "Service"
+  URL = "service"
+
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[menu.main]]
+name = "Philosophy"
+URL = "philosophy"
+weight = 3
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 5
+
+# footer menu
+[[menu.footer]]
+name = "service"
+URL = "service"
+weight = 1
+
+[[menu.footer]]
+name = "about"
+URL = "about"
+weight = 2
+
+[[menu.footer]]
+name = "blog"
+URL = "blog"
+weight = 3
+
+# [[menu.footer]]
+# name = "pricing"
+# URL = "pricing"
+# weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_footer = "images/logo-footer.png"
+# top header
+top_header = true
+# Meta data
+description = "This is meta description"
+author = "Sysdera"
+# contact info
+address = "5 NW 5th Ave. Portland, Oregon 97209"
+# phone = "+211234565523"
+email = "info@sysdera.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# search
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Request More Information"
+link = "contact"
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "45.523260"
+map_longitude = "-122.675730"
+map_marker = "images/marker.png"
+
+######################### Clients logo ################################
+[[params.clients_logo]]
+logo = "images/about/key-vision1.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision2.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision3.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision4.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision3.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision5.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision2.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision1.png"
+
+#################### social icon ######################################
+# [[params.social]]
+# name = "Facebook"
+# icon = "ti-facebook"
+# link = "#"
+
+[[params.social]]
+name = "Twitter"
+icon = "ti-twitter-alt"
+link = "#"
+
+# [[params.social]]
+# name = "Vimeo"
+# icon = "ti-vimeo-alt"
+# link = "#"
+
+[[params.social]]
+name = "Github"
+icon = "ti-github"
+link = "#"
+
+########################### English language ###########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 Sysdera"

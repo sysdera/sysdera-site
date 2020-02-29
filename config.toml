@@ -129,7 +129,7 @@ address = "5 NW 5th Ave. Portland, Oregon 97209"
 # phone = "+211234565523"
 email = "info@sysdera.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+# contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # search

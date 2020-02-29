@@ -24,3 +24,5 @@
   translation: All
 - id: view_project
   translation: view project
+- id: join_waitlist
+  translation: Join the Waiting List

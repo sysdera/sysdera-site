@@ -5,17 +5,11 @@
 <section class="contact-form-wrap section">
   <div class="container">
     <div class="row align-items-center bg-gray">
-      {{ if .Site.Params.map.enable }}
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <div class="google-map">
-          <div id="map" data-latitude="{{ .Site.Params.map.map_latitude }}"
-            data-longitude="{{ .Site.Params.map.map_longitude }}"
-            data-marker="{{ .Site.Params.map.map_marker | absURL }}"
-            data-marker-name="{{ .Site.Title }}">
-          </div>
-        </div>
+        <a href="{{ .Site.BaseURL | relLangURL }}">
+          <img src="{{ .Site.Params.logo_footer | absURL }}" alt="{{ .Site.Title }}" class="img-fluid" width="400">
+        </a>
       </div>
-      {{ end }}
       <div class="col-lg-6 col-sm-12">
         <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
           <h3 class="mb-3">{{ .Site.Params.address | markdownify }}</h3>
@@ -34,15 +28,31 @@
     <div class="row justify-content-center mt-5">
       <div class="col-lg-8 text-center mt-4">
         <form class="contact__form" name="contact-us" method="post" data-netlify="true">
-          <h3 class="text-md">{{ i18n "contact_us" }}</h3>
+          <h3 class="text-md">{{ i18n "join_waitlist" }}</h3>
           <div class="form-group">
             <input name="name" type="text" class="form-control" placeholder="Your Name">
           </div>
           <div class="form-group">
             <input name="email" type="email" class="form-control" placeholder="Email Address">
           </div>
+          <div class="form-group">
+            <input name="phonenumber" type="tel" class="form-control" placeholder="Phone Number">
+          </div>
           <div class="form-group-2 mb-4">
             <textarea name="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <div class="form-group">
+            <input name="phonenumber" type="dropdown" class="form-control" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Where did you hear about us?</label>
+            <select class="form-control">
+              <option>Google Search</option>
+              <option>A Meetup</option>
+              <option>Word of Mouth</option>
+              <option>Other</option>
+              <option>5</option>
+            </select>
           </div>
           <button class="btn btn-main" name="submit" type="submit">{{ i18n "send_message" }}</button>
         </form>

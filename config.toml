@@ -122,7 +122,7 @@ logo_footer = "images/logo-footer.png"
 # top header
 top_header = true
 # Meta data
-description = "This is meta description"
+description = "sysdera school of devops"
 author = "Sysdera"
 # contact info
 address = "5 NW 5th Ave. Portland, Oregon 97209"
@@ -143,8 +143,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Request More Information"
-link = "contact"
+label = "Join the waitlist!"
+link = "waitlist"
 
 # google map
 [params.map]

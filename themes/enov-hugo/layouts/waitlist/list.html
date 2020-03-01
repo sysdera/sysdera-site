@@ -29,6 +29,7 @@
       <div class="col-lg-8 text-center mt-4">
         <form class="contact__form" name="waitlist" method="post" data-netlify="true">
           <h3 class="text-md">{{ i18n "join_waitlist" }}</h3>
+          <p class="text-sm">{{ i18n "waitlist_msg" }}</p>
           <div class="form-group">
             <input name="name" type="text" class="form-control" placeholder="Your Name">
           </div>
@@ -38,20 +39,13 @@
           <div class="form-group">
             <input name="phonenumber" type="tel" class="form-control" placeholder="Phone Number">
           </div>
-          <div class="form-group-2 mb-4">
-            <textarea name="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
-          </div>
           <div class="form-group">
-            <input name="phonenumber" type="dropdown" class="form-control" placeholder="Phone Number">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Where did you hear about us?</label>
-            <select class="form-control">
+            <select class="form-control" name="method">
+              <option disabled selected value>How did you hear about us? (Optional)</option>
               <option>Google Search</option>
               <option>A Meetup</option>
               <option>Word of Mouth</option>
               <option>Other</option>
-              <option>5</option>
             </select>
           </div>
           <button class="btn btn-main" name="submit" type="submit">{{ i18n "send_message" }}</button>

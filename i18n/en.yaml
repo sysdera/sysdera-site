@@ -25,4 +25,6 @@
 - id: view_project
   translation: view project
 - id: join_waitlist
-  translation: Join the Waiting List
+  translation: Join the waitlist!
+- id: waitlist_msg
+  translation: Thank you so much for your interest in Sysdera. If you would like to join our waitlist, please fill out the form below or email info@sysdera.com. We’ll be in touch when the program goes lives!

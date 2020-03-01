@@ -65,18 +65,18 @@ weight = 4
 hasChildren = true
   [[menu.main]]
   parent = "Employers"
-  name = "Portfolio"
-  URL = "project"
+  name = "Enterprise DevOps Training"
+  URL = "enterprise-devops-training"
 
   [[menu.main]]
   parent = "Employers"
-  name = "Pricing"
-  URL = "pricing"
+  name = "Certified DevOps Engineers"
+  URL = "hire-certified-devops-engineers"
 
   [[menu.main]]
   parent = "Employers"
-  name = "Service"
-  URL = "service"
+  name = "DevOps Internship Program"
+  URL = "devops-interns"
 
 [[menu.main]]
 name = "About"

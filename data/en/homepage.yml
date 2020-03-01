@@ -5,12 +5,12 @@ banner:
   title : "Helping you level up your skills and expand your opportunities"
   image : "images/logo.png"
 
-  # solid button
-  button_solid:
-  # button_border:
-    enable : true
-    label : "Join the waitlist!"
-    link : "pricing"
+  # # solid button
+  # button_solid:
+  # # button_border:
+  #   enable : true
+  #   label : "Join the waitlist!"
+  #   link : "pricing"
 
   # # border button
   # button_border:
@@ -26,7 +26,7 @@ banner_cta:
   button:
     enable : true
     label : "Our Teaching Phiolosophy"
-    link : "about"
+    link : "philosophy"
 
 ######################## About #######################################
 about:
@@ -43,7 +43,7 @@ about:
 ########################## feature ########################################
 feature:
   enable : true
-  title : "Immersive Classroom Experience a"
+  title : "Immersive Classroom Experience"
   feature_item:
     # feature item loop
     - title : "Modern & Responsive design"
@@ -60,28 +60,28 @@ funfacts:
   enable : true
   funfact_item:
     # fanfacts item loop
-    - title : "Project Done"
-      icon : "ti-check" # themify icon pack: https://themify.me/themify-icons
-      count : "1730"
+    - title : "DevOps/SRE Job Openings in PDX"
+      icon : "ti-briefcase" # themify icon pack: https://themify.me/themify-icons
+      count : "1000"
       unit : "+"
       
     # fanfacts item loop
-    - title : "User Worldwide"
-      icon : "ti-flag" # themify icon pack: https://themify.me/themify-icons
-      count : "125"
-      unit : "M"
+    - title : "Avg. Portland DevOps/SRE Total Compensation"
+      icon : "ti-money" # themify icon pack: https://themify.me/themify-icons
+      count : "104582"
+      unit : "$"
       
     # fanfacts item loop
-    - title : "Availble Country"
-      icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
-      count : "40"
-      unit : ""
+    - title : "Companies Are Seeking Certified DevOps Engineers"
+      icon : "ti-stats-up" # themify icon pack: https://themify.me/themify-icons
+      count : "59"
+      unit : "%"
       
     # fanfacts item loop
-    - title : "Award Winner"
+    - title : "2018 #2 Best Job in America"
       icon : "ti-medall" # themify icon pack: https://themify.me/themify-icons
-      count : "10"
-      unit : "+"
+      count : "2"
+      unit : ""
 
 ######################### Service #####################################
 service:

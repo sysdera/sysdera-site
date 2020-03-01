@@ -31,10 +31,9 @@ banner_cta:
 ######################## About #######################################
 about:
   enable : true
-  image : "images/about/home-8.jpg"
-  title : "Forget about <br> design limits! Build and customize your portfolio"
-  content : "We provide consulting services in the area of IFRS and management reporting, helping companies
-            to reach their highest level. We optimize business processes, making them easier."
+  image : "images/devops-tooling.png"
+  title : "Data Driven Coursework"
+  content : "Our goal is to best prepare you for today's job market and set you up for success in your career aspirations. We use data from job postings and national industry reports to curate the selection of skills + tools we teach and put into practice at Sysdera.  Our curriculum teaches processes and patterns in DevOps Engineering then proceeds to provide students the opportunity to perform practical application using current technologies and tools to solve modern DevOps problems."
   button:
     enable : false
     label : "Get started"
@@ -43,16 +42,16 @@ about:
 ########################## feature ########################################
 feature:
   enable : true
-  title : "Immersive Classroom Experience"
+  title : "Immersive Experience"
   feature_item:
     # feature item loop
     - title : "Modern & Responsive design"
-      icon : "ti-wand" # icon pack : https://themify.me/themify-icons
+      icon : "ti-rocket" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
       
     # feature item loop
     - title : "Awarded licensed company"
-      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      icon : "ti-star" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
 
 ##################### Funfacts ######################################

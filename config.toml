@@ -122,7 +122,7 @@ logo_footer = "images/logo-footer.png"
 # top header
 top_header = true
 # Meta data
-description = "sysdera school of devops"
+description = "Sysdera School of Devops: See one. Do one. Teach one."
 author = "Sysdera"
 # contact info
 address = "5 NW 5th Ave. Portland, Oregon 97209"
@@ -131,7 +131,7 @@ email = "info@sysdera.com"
 # contact form action
 # contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # your id
+google_analitycs_id = "UA-159417019-1" # your id
 # search
 search = true
 

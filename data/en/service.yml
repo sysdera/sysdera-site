@@ -11,7 +11,7 @@ services:
     content : "A digital agency isn't here to replace your internal team, we're here to partner"
     
   # service item loop
-  - title : "Business Consulting"
+  - title : "Internship"
     icon : "ti-calendar" # themify icon pack: https://themify.me/themify-icons
     content : "A digital agency isn't here to replace your internal team, we're here to partner"
 

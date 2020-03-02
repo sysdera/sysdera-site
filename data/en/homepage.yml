@@ -50,7 +50,7 @@ feature:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
       
     # feature item loop
-    - title : "Awarded licensed company"
+    - title : ""
       icon : "ti-star" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
 
@@ -237,7 +237,7 @@ service:
 
 ############################## blog ####################################
 blog:
-  enable: true
+  enable: false
   title : "Latest News & Articles"
   content : "Don’t just take our words for it. Our clients are our biggest supporters. Would you like to know what they think about us?"
   # blog post comes from "content/**/blog" folder.

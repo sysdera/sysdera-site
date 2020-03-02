@@ -5,8 +5,8 @@
 {{ partial "page-title.html" . }}
 
 <!-- about -->
-{{ if $data.about.about.enable }}
-{{ with $data.about.about }}
+{{ if $data.employers.employers.enable }}
+{{ with $data.employers.employers }}
 <section class="section about-2 position-relative">
   <div class="container">
     <div class="row justify-content-center">
@@ -35,7 +35,7 @@
 <!-- /about -->
 
 <!-- section Counter Start -->
-{{ if $data.about.funfacts.enable }}
+<!-- {{ if $data.employers.funfacts.enable }}
 {{ with $data.homepage.funfacts }}
 <section class="counter bg-counter" style="background-image: url('{{ .bg_image | absURL }}');">
   <div class="container">
@@ -56,7 +56,7 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- section Counter End  -->
 
 <!-- team -->

@@ -54,60 +54,60 @@ link = "plugins/google-map/map.js"
 
 # main menu
 [[menu.main]]
-name = "Why DevOps"
-URL = "devops"
-weight = 2
-
-[[menu.main]]
-name = "Employers"
-URL = "employers"
-weight = 4
-hasChildren = true
-  [[menu.main]]
-  parent = "Employers"
-  name = "Enterprise DevOps Training"
-  URL = "enterprise-devops-training"
-
-  [[menu.main]]
-  parent = "Employers"
-  name = "Certified DevOps Engineers"
-  URL = "hire-certified-devops-engineers"
-
-  [[menu.main]]
-  parent = "Employers"
-  name = "DevOps Internship Program"
-  URL = "devops-interns"
+name = "Home"
+URL = "/"
+weight = 1
 
 [[menu.main]]
 name = "About"
 URL = "about"
-weight = 1
+weight = 2
+
+# [[menu.main]]
+# name = "Why DevOps"
+# URL = "devops"
+# weight = 3
 
 [[menu.main]]
 name = "Philosophy"
 URL = "philosophy"
-weight = 3
+weight = 4
 
 [[menu.main]]
-name = "Blog"
-URL = "blog"
+name = "Employers"
+URL = "employers"
 weight = 5
+hasChildren = false
+  # [[menu.main]]
+  # parent = "Employers"
+  # name = "Enterprise DevOps Training"
+  # URL = "enterprise-devops-training"
+
+  # [[menu.main]]
+  # parent = "Employers"
+  # name = "Certified DevOps Engineers"
+  # URL = "hire-certified-devops-engineers"
+
+  # [[menu.main]]
+  # parent = "Employers"
+  # name = "DevOps Internship Program"
+  # URL = "devops-interns"
+
+# [[menu.main]]
+# name = "Blog"
+# URL = "blog"
+# weight = 5
 
 # footer menu
-[[menu.footer]]
-name = "service"
-URL = "service"
-weight = 1
-
 [[menu.footer]]
 name = "about"
 URL = "about"
 weight = 2
 
-[[menu.footer]]
-name = "blog"
-URL = "blog"
-weight = 3
+# [[menu.footer]]
+# name = "blog"
+# URL = "blog"
+# weight = 3
 
 # [[menu.footer]]
 # name = "pricing"
@@ -155,29 +155,29 @@ map_longitude = "-122.675730"
 map_marker = "images/marker.png"
 
 ######################### Clients logo ################################
-[[params.clients_logo]]
-logo = "images/about/key-vision1.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision1.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision2.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision2.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision3.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision3.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision4.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision4.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision3.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision3.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision5.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision5.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision2.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision2.png"
 
-[[params.clients_logo]]
-logo = "images/about/key-vision1.png"
+# [[params.clients_logo]]
+# logo = "images/about/key-vision1.png"
 
 #################### social icon ######################################
 # [[params.social]]
@@ -185,20 +185,20 @@ logo = "images/about/key-vision1.png"
 # icon = "ti-facebook"
 # link = "#"
 
-[[params.social]]
-name = "Twitter"
-icon = "ti-twitter-alt"
-link = "#"
+# [[params.social]]
+# name = "Twitter"
+# icon = "ti-twitter-alt"
+# link = "#"
 
 # [[params.social]]
 # name = "Vimeo"
 # icon = "ti-vimeo-alt"
 # link = "#"
 
-[[params.social]]
-name = "Github"
-icon = "ti-github"
-link = "#"
+# [[params.social]]
+# name = "Github"
+# icon = "ti-github"
+# link = "#"
 
 ########################### English language ###########################
 [Languages.en]

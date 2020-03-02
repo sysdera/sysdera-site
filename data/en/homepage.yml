@@ -45,7 +45,7 @@ feature:
   title : "Immersive Experience"
   feature_item:
     # feature item loop
-    - title : "Modern & Responsive design"
+    - title : ""
       icon : "ti-rocket" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
       
@@ -85,8 +85,8 @@ funfacts:
 ######################### Service #####################################
 service:
   enable : true
-  title : "Total Solution in one"
-  content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  title : "Our Program Structure"
+  content : "We design our curriculum to be digestible for "
   # service item comes from "data/**/service.yml" file
 
 # ######################### pricing #####################################
